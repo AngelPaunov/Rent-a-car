@@ -1,0 +1,10 @@
+.booking-card{
+    width: 20rem;
+    margin: 0.7rem;
+}
+.card-text{
+    margin-bottom: 0.5rem;
+}
+.card-btns button{
+    margin: 10px;
+}

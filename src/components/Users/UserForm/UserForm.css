@@ -1,0 +1,16 @@
+.user-form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.user-form-wrapper form {
+  width: 13%;
+}
+.user-form-wrapper form{
+  align-items: center;
+}
+.user-form-wrapper .form-switch {
+  width: 40%;
+  padding-left: 6.5em;
+}

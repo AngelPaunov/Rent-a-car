@@ -1,0 +1,455 @@
+{
+  "users": [
+    {
+      "id": "b6f91b40-623a-452f-a69f-2bd9ce405baf",
+      "isActive": false,
+      "picture": "https://picsum.photos/200?random=1",
+      "name": "Dillon Woodward",
+      "email": "dillonwoodward@pyramax.com",
+      "password": "asd",
+      "phone": "+1 (991) 403-3176",
+      "role": "CUSTOMER",
+      "address": "617 Colin Place, Summertown, Nevada, 6200"
+    },
+    {
+      "id": "a09ec255-79e4-441b-bf2d-1caa768c741f",
+      "isActive": true,
+      "picture": "https://picsum.photos/200?random=2",
+      "name": "Riddle Blackwell",
+      "email": "riddleblackwell@pyramax.com",
+      "phone": "21312321",
+      "password": "asd",
+      "role": "CUSTOMER",
+      "address": "253 Granite Street, Dubois, Delaware, 5468"
+    },
+    {
+      "id": "84b94154-c361-4844-a0bb-58c90f2647f2",
+      "isActive": true,
+      "picture": "https://picsum.photos/200?random=3",
+      "name": "Gibson Pratt",
+      "email": "gibsonpratt@pyramax.com",
+      "password": "asd",
+      "phone": "+1 (878) 434-2679",
+      "role": "CUSTOMER",
+      "address": "353 Perry Place, Saticoy, Puerto Rico, 5366"
+    },
+    {
+      "id": "76529fae-f665-4d72-9d1a-7505376796e2",
+      "isActive": true,
+      "picture": "https://picsum.photos/200?random=4",
+      "name": "Sybil Rodriguez",
+      "email": "sybilrodriguez@pyramax.com",
+      "phone": "+1 (866) 549-3978",
+      "password": "asd",
+      "role": "CUSTOMER",
+      "address": "353 Harkness Avenue, Wollochet, Hawaii, 7052"
+    },
+    {
+      "id": "c9cf7d80-0dd9-4491-a00f-3e1af6847853",
+      "isActive": false,
+      "picture": "https://picsum.photos/200?random=5",
+      "name": "Ashlee Joyner",
+      "email": "ashleejoyner@pyramax.com",
+      "password": "asd",
+      "phone": "+1 (990) 519-3911",
+      "role": "CUSTOMER",
+      "address": "923 Florence Avenue, Harborton, Oklahoma, 9686"
+    },
+    {
+      "id": "985efbab-8189-4d9f-904d-165a06673b89",
+      "isActive": false,
+      "picture": "https://picsum.photos/200?random=6",
+      "name": "Hazel Mcmahon",
+      "email": "hazelmcmahon@pyramax.com",
+      "password": "asd",
+      "phone": "+1 (981) 509-3776",
+      "role": "CUSTOMER",
+      "address": "545 Butler Place, Gila, Florida, 131"
+    },
+    {
+      "id": "OPP_odd",
+      "name": "ANGEL",
+      "email": "sadf@afsd.f",
+      "phone": "231",
+      "address": "dfas",
+      "picture": "https://picsum.photos/200?random=75",
+      "password": "asd",
+      "role": "CUSTOMER",
+      "isActive": true
+    },
+    {
+      "picture": "https://picsum.photos/200?random=21",
+      "name": "asdf",
+      "email": "a@a.a",
+      "phone": "a",
+      "address": "adsfasdf",
+      "password": "a",
+      "role": "ADMIN",
+      "id": "rLvZGIP",
+      "isActive": true
+    },
+    {
+      "picture": "https://picsum.photos/200?random=21",
+      "name": "aaaa",
+      "email": "a@a.aa",
+      "phone": "a",
+      "address": "aaaa",
+      "password": "a",
+      "role": "CUSTOMER",
+      "id": "rLvZGIPdd",
+      "isActive": true
+    }
+  ],
+  "cars": [
+    {
+      "id": "aVDOa123",
+      "picture": "https://picsum.photos/200?random=222",
+      "type": "ECONOMY",
+      "brand": "Mercedes",
+      "model": "C220",
+      "manufactureDate": "2022-05-18",
+      "fuelType": "PETROL",
+      "seatsNumber": 4,
+      "pricePerHour": 20,
+      "availableVehiclesCount": 5
+    },
+    {
+      "picture": "https://cdn3.focus.bg/autodata/i/mercedes-benz/c-klasse/c-klasse-w203/large/9ab22ed5057fe5d64de00dc8577c327d.jpg",
+      "type": "LUXURY",
+      "brand": "Mercedes Benz",
+      "model": "C230 W203",
+      "manufactureDate": "2005-06-02",
+      "fuelType": "PETROL",
+      "seatsNumber": 5,
+      "pricePerHour": "15",
+      "availableVehiclesCount": "",
+      "id": "FBOqZT5"
+    }
+  ],
+  "bookings": [
+    {
+      "userId": "rLvZGIP",
+      "carId": "aVDOa123",
+      "price": 13824,
+      "startTime": "2022-05-28T11:11",
+      "endTime": "2022-06-29T11:11",
+      "active": true,
+      "id": 1
+    },
+    {
+      "userId": "rLvZGIP",
+      "carId": "aVDOa123",
+      "price": 10800,
+      "startTime": "2022-05-28T11:11",
+      "endTime": "2022-06-22T11:11",
+      "active": true,
+      "id": 3
+    },
+    {
+      "userId": "rLvZGIP",
+      "carId": "FBOqZT5",
+      "price": 13824,
+      "startTime": "2022-05-28T11:11",
+      "endTime": "2022-06-29T11:11",
+      "active": false,
+      "id": 4
+    },
+    {
+      "userId": "rLvZGIP",
+      "carId": "aVDOa123",
+      "price": 10800,
+      "startTime": "2022-05-28T11:11",
+      "endTime": "2022-06-22T11:11",
+      "active": false,
+      "id": 5
+    },
+    {
+      "userId": "rLvZGIP",
+      "carId": "aVDOa123",
+      "price": 2957.4,
+      "startTime": "2022-05-27T11:11",
+      "endTime": "2022-06-03T02:22",
+      "active": false,
+      "id": 6
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "aVDOa123",
+      "price": 1260,
+      "startTime": "2022-05-27T11:11",
+      "endTime": "2022-05-30T02:22",
+      "active": false,
+      "id": 7
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "FBOqZT5",
+      "price": 1581.75,
+      "startTime": "2022-05-27T11:11",
+      "endTime": "2022-06-01T02:22",
+      "active": false,
+      "id": 8
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "aVDOa123",
+      "price": 1824,
+      "startTime": "2022-05-27T09:09",
+      "endTime": "2022-05-31T09:09",
+      "active": false,
+      "id": 9
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "FBOqZT5",
+      "price": 1482,
+      "startTime": "2022-05-27T02:22",
+      "endTime": "2022-05-31T11:11",
+      "active": false,
+      "id": 10
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "FBOqZT5",
+      "price": 1239.75,
+      "startTime": "2022-05-27T11:11",
+      "endTime": "2022-05-31T02:22",
+      "active": false,
+      "id": 11
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "aVDOa123",
+      "price": 1843,
+      "startTime": "2022-05-27T04:44",
+      "endTime": "2022-05-31T05:55",
+      "active": false,
+      "id": 12
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "FBOqZT5",
+      "price": 360,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 13
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "aVDOa123",
+      "price": 480,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 14
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "FBOqZT5",
+      "price": 360,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 15
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "FBOqZT5",
+      "price": 360,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 16
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "aVDOa123",
+      "price": 480,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 17
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "FBOqZT5",
+      "price": 360,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 18
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "FBOqZT5",
+      "price": 360,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 19
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "aVDOa123",
+      "price": 480,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 20
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "aVDOa123",
+      "price": 480,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 21
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "aVDOa123",
+      "price": 480,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 22
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "aVDOa123",
+      "price": 480,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 23
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "aVDOa123",
+      "price": 480,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 24
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "FBOqZT5",
+      "price": 360,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 25
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "aVDOa123",
+      "price": 480,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 26
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "aVDOa123",
+      "price": 480,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 27
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "aVDOa123",
+      "price": 480,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 28
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "aVDOa123",
+      "price": 480,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 29
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "aVDOa123",
+      "price": 480,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 30
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "FBOqZT5",
+      "price": 360,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 31
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "FBOqZT5",
+      "price": 360,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 32
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "aVDOa123",
+      "price": 480,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 33
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "FBOqZT5",
+      "price": 360,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 34
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "FBOqZT5",
+      "price": 360,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-10T10:10",
+      "active": false,
+      "id": 35
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "FBOqZT5",
+      "price": 5197.5,
+      "startTime": "2022-08-09T10:10",
+      "endTime": "2022-08-25T11:10",
+      "active": false,
+      "id": 36
+    },
+    {
+      "userId": "rLvZGIPdd",
+      "carId": "FBOqZT5",
+      "price": 6817.5,
+      "startTime": "2022-06-09T10:10",
+      "endTime": "2022-06-30T11:11",
+      "active": false,
+      "id": 37
+    }
+  ]
+}

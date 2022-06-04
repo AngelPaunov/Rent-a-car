@@ -1,0 +1,12 @@
+.car-form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.car-form-wrapper form {
+  width: 16%;
+}
+.car-form-wrapper form{
+  align-items: center;
+}
